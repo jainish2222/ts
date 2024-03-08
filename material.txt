@@ -1,2 +1,21 @@
 https://projects.100xdevs.com/
 https://daily-code-web.vercel.app/tracks/ts-hard/ts-hard-5
+
+
+
+// // function getFirstElement(arr: (string)[]) { solve // console.log(el.toUpperCase());
+// // function getFirstElement(arr: (string | number)[]){  getFirstElement(["gg", "aa"]);  getFirstElement([1,2]);
+// function getFirstElement(arr: (string[] | number[])){
+//     return arr[0];
+// }
+
+// const el = getFirstElement(["gg", "aa"]); //either number or string not mixx
+
+
+
+function identity<T>(arg: T): T {
+    return arg;
+}
+
+let output1 = identity<string>("jainish");
+let output2 = identity<number>(1)
